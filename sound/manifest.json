@@ -1,0 +1,146 @@
+{
+  "schema": "itk50-sound-manifest",
+  "version": "1.0",
+  "repo": "sword77777/iTK50-Sound",
+  "branch": "main",
+  "api_base": "https://api.github.com/repos/sword77777/iTK50-Sound/contents",
+  "updated": "2026-11-21",
+  "format": "raw 8-bit PCM stream, 4 MB address space, M25P32 SPI flash image",
+  "count": 19,
+  "total_size": 48594632,
+  "files": [
+    {
+      "file": "sound/cen_v3.raw",
+      "title": "CEN V3",
+      "size": 2456364,
+      "sha256": "ed4a9a5eb3d1116f44668527499b510185d63bab3040ad763c734a48579ed18e",
+      "source": "V3/CEN/CEN V3.raw"
+    },
+    {
+      "file": "sound/ch2_v3_3.raw",
+      "title": "CH2 V3.3",
+      "size": 3049100,
+      "sha256": "50037dd890f3b1a4dca1c2d8cd7622b8fa6227e9f8a6164bbcb1019be3078547",
+      "source": "V3/CH2/CH2 V3_3.raw"
+    },
+    {
+      "file": "sound/churchill_v3.raw",
+      "title": "Churchill V3",
+      "size": 2096424,
+      "sha256": "e1366379a3d4f387c81d238a9a07bc8fa5e626eadf03214af714c1d5558c31df",
+      "source": "V3/Churchill/chu V3.raw"
+    },
+    {
+      "file": "sound/ge_v3.raw",
+      "title": "GE V3",
+      "size": 2495576,
+      "sha256": "eace068071246eef07149131614f7a38782cdf818732b0e7825884c234844a6b",
+      "source": "V3/GE/GE V3.raw"
+    },
+    {
+      "file": "sound/js2_v3.raw",
+      "title": "JS2 V3 (from T90)",
+      "size": 2186810,
+      "sha256": "74663f5ac34031f7d68b97575f61baf57f83056e99374c9a90376bc22298de2c",
+      "source": "V3/JS2/JS2 V3 from T90.raw"
+    },
+    {
+      "file": "sound/kt_v3.raw",
+      "title": "KT V3",
+      "size": 2417884,
+      "sha256": "9ee9f07f0436dca7dfa52e1c68d5bdd08f079cbe3b4fcc280dc68537d6dcdc26",
+      "source": "V3/KT/KT V3.raw"
+    },
+    {
+      "file": "sound/l1_v3.raw",
+      "title": "L1 V3",
+      "size": 2304006,
+      "sha256": "7aac5b4dc4ad7d86db4df4b09d37c1613e75b685c77a13a9521d5e841413c287",
+      "source": "V3/L1/L1 V3.raw"
+    },
+    {
+      "file": "sound/ship_l2_v3.raw",
+      "title": "Ship L2 V3",
+      "size": 2316888,
+      "sha256": "3bfc5750a8631b8dc3612c93678f3b49fd2eaf94e24fcb9ac1fc1fc38d38dfcd",
+      "source": "V3/L2 ship/ship L2 V3.raw"
+    },
+    {
+      "file": "sound/l2_v3.raw",
+      "title": "L2 V3",
+      "size": 2316888,
+      "sha256": "02991e54dab2531ddc556bd61a7e055fabbc3694f30d4b597a6b2e71e8ca697a",
+      "source": "V3/L2/L2 V3.raw"
+    },
+    {
+      "file": "sound/m1_v3.raw",
+      "title": "M1 V3",
+      "size": 3089112,
+      "sha256": "60dbf9a8568d1f1f34c05a2f8f5dc4f7e6d69bb6fb4bfd6ed3f16c751bef397e",
+      "source": "V3/M1/M1 V3 release 1.raw"
+    },
+    {
+      "file": "sound/m18_v3.raw",
+      "title": "M18 V3",
+      "size": 3651778,
+      "sha256": "c2b1702bf738bba90e84add5fdd20772bb11295db552622b15731e6908f76eeb",
+      "source": "V3/M18/M18 V3 release 1.raw"
+    },
+    {
+      "file": "sound/m2_bradley_v3.raw",
+      "title": "M2 Bradley V3",
+      "size": 2608404,
+      "sha256": "5eb1197af78bb2c6a56b57af9268c970ac9333adbc48c9cc90d431f55c497ac1",
+      "source": "V3/M2 Bradley/M2 V3.raw"
+    },
+    {
+      "file": "sound/m60_v3_l2_turret.raw",
+      "title": "M60 V3 (L2 turret)",
+      "size": 2712282,
+      "sha256": "dcc69909786d58bfdf911b85400f40355973a0e33fba4b62a7bb61353471ff21",
+      "source": "V3/M60/M60 V3 release 1 L2 turret.raw"
+    },
+    {
+      "file": "sound/m60_v3.raw",
+      "title": "M60 V3",
+      "size": 2679114,
+      "sha256": "217ba93c3859e87a870f2e2f49b5c933d30786d9fab54f55b2143b73d5d7da4b",
+      "source": "V3/M60/M60 V3 release 1.raw"
+    },
+    {
+      "file": "sound/nashorn_pz4_v3.raw",
+      "title": "Nashorn PZ4 V3",
+      "size": 2605370,
+      "sha256": "0471b73f24d931af3131aff9e92743e5a2c7afded4961c6d2111120eb9039780",
+      "source": "V3/Nashorn/PZ4 Nashorn V3.raw"
+    },
+    {
+      "file": "sound/l1_v3_newgun.raw",
+      "title": "L1 V3 (new gun sound)",
+      "size": 2390189,
+      "sha256": "d5320fd011f39de00c4b11d1c41fb1d73b9211850132460da6658e0915a9fbbc",
+      "source": "V3/Stian/l1v3newgunsounds.raw"
+    },
+    {
+      "file": "sound/l1_v3_noturbo_test.raw",
+      "title": "L1 V3 (no turbo, test)",
+      "size": 2279529,
+      "sha256": "922fc91fab0737d2ef27abebb1173cf9f859c76be0ec2eea89e197b8268ba279",
+      "source": "V3/Stian/l1v3noturbotest.raw"
+    },
+    {
+      "file": "sound/t1_v3.raw",
+      "title": "T1 V3",
+      "size": 2462358,
+      "sha256": "daf98368d28da94b99de8acb25a1664ad72dd21ba35c22bdad08d3f38dd0f0f8",
+      "source": "V3/T1/T1 V3.raw"
+    },
+    {
+      "file": "sound/t90_v3.raw",
+      "title": "T90 V3",
+      "size": 2476556,
+      "sha256": "0f825d3bb9696cab9d241ec927153d1fafe0b7d8e5d5369fdb707757547aa8a2",
+      "source": "V3/T90/T90 V3.raw"
+    }
+  ]
+}
