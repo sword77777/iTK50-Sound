@@ -8,25 +8,24 @@ $ErrorActionPreference = 'Stop'
 
 # explicit mapping: original relative path -> published file name + display title
 $map = @(
-    @{ src = 'V3\CEN\CEN V3.raw';                      file = 'cen_v3.raw';               title = 'CEN V3' },
-    @{ src = 'V3\CH2\CH2 V3_3.raw';                    file = 'ch2_v3_3.raw';             title = 'CH2 V3.3' },
-    @{ src = 'V3\Churchill\chu V3.raw';                file = 'churchill_v3.raw';         title = 'Churchill V3' },
-    @{ src = 'V3\GE\GE V3.raw';                        file = 'ge_v3.raw';                title = 'GE V3' },
-    @{ src = 'V3\JS2\JS2 V3 from T90.raw';             file = 'js2_v3.raw';               title = 'JS2 V3 (from T90)' },
-    @{ src = 'V3\KT\KT V3.raw';                        file = 'kt_v3.raw';                title = 'KT V3' },
-    @{ src = 'V3\L1\L1 V3.raw';                        file = 'l1_v3.raw';                title = 'L1 V3' },
-    @{ src = 'V3\L2 ship\ship L2 V3.raw';              file = 'ship_l2_v3.raw';           title = 'Ship L2 V3' },
-    @{ src = 'V3\L2\L2 V3.raw';                        file = 'l2_v3.raw';                title = 'L2 V3' },
-    @{ src = 'V3\M1\M1 V3 release 1.raw';              file = 'm1_v3.raw';                title = 'M1 V3' },
-    @{ src = 'V3\M18\M18 V3 release 1.raw';            file = 'm18_v3.raw';               title = 'M18 V3' },
-    @{ src = 'V3\M2 Bradley\M2 V3.raw';                file = 'm2_bradley_v3.raw';        title = 'M2 Bradley V3' },
-    @{ src = 'V3\M60\M60 V3 release 1 L2 turret.raw';  file = 'm60_v3_l2_turret.raw';     title = 'M60 V3 (L2 turret)' },
-    @{ src = 'V3\M60\M60 V3 release 1.raw';            file = 'm60_v3.raw';               title = 'M60 V3' },
+    @{ src = 'V3\CEN\CEN V3.raw';                      file = 'cen_v3f.raw';              title = 'CEN V3F' },
+    @{ src = 'V3\CH2\CH2 V3_3.raw';                    file = 'ch2_v3f.raw';              title = 'CH2 V3F' },
+    @{ src = 'V3\Churchill\chu V3.raw';                file = 'churchill_v3f.raw';        title = 'Churchill V3F' },
+    @{ src = 'V3\GE\GE V3.raw';                        file = 'ge_v3f.raw';               title = 'GE V3F' },
+    @{ src = 'V3\JS2\JS2 V3 from T90.raw';             file = 'js2_v3f.raw';              title = 'JS2 V3F' },
+    @{ src = 'V3\KT\KT V3.raw';                        file = 'kt_v3f.raw';               title = 'KT V3F' },
+    @{ src = 'V3\L1\L1 V3.raw';                        file = 'l1_v3f.raw';               title = 'L1 V3F' },
+    @{ src = 'V3\L2\L2 V3.raw';                        file = 'l2_v3f.raw';               title = 'L2 V3F' },
+    @{ src = 'V3\M1\M1 V3 release 1.raw';              file = 'm1_v3f.raw';               title = 'M1 V3F' },
+    @{ src = 'V3\M18\M18 V3 release 1.raw';            file = 'm18_v3f.raw';              title = 'M18 V3F' },
+    @{ src = 'V3\M2 Bradley\M2 V3.raw';                file = 'm2_bradley_v3f.raw';       title = 'M2 Bradley V3F' },
+    @{ src = 'V3\M60\M60 V3 release 1 L2 turret.raw';  file = 'm60_v3f_v2_l2_turret.raw'; title = 'M60 V3F V2(L2 turret)' },
+    @{ src = 'V3\M60\M60 V3 release 1.raw';            file = 'm60_v3f_v1.raw';           title = 'M60 V3F V1' },
     @{ src = 'V3\Nashorn\PZ4 Nashorn V3.raw';          file = 'nashorn_pz4_v3.raw';       title = 'Nashorn PZ4 V3' },
-    @{ src = 'V3\Stian\l1v3newgunsounds.raw';          file = 'l1_v3_newgun.raw';         title = 'L1 V3 (new gun sound)' },
-    @{ src = 'V3\Stian\l1v3noturbotest.raw';           file = 'l1_v3_noturbo_test.raw';   title = 'L1 V3 (no turbo, test)' },
-    @{ src = 'V3\T1\T1 V3.raw';                        file = 't1_v3.raw';                title = 'T1 V3' },
-    @{ src = 'V3\T90\T90 V3.raw';                      file = 't90_v3.raw';               title = 'T90 V3' }
+    @{ src = 'V3\Stian\l1v3newgunsounds.raw';          file = 'l1_v3f_v1_new_gun.raw';    title = 'L1 V3F V1 new gun' },
+    @{ src = 'V3\Stian\l1v3noturbotest.raw';           file = 'l1_v3f_v2_no_turbo.raw';   title = 'L1 V3F V2 no turbo' },
+    @{ src = 'V3\T1\T1 V3.raw';                        file = 't1_v3f.raw';               title = 'T1 V3F' },
+    @{ src = 'V3\T90\T90 V3.raw';                      file = 't90_v3f.raw';              title = 'T-90 V3F' }
 )
 
 if (-not (Test-Path -LiteralPath $Dest)) { New-Item -ItemType Directory -Path $Dest -Force | Out-Null }
